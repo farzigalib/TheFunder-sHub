@@ -17,7 +17,7 @@ const Input = ({ placeholder, name, type, value, handleChange }) => (
 const CreateStartUpPage = () => {
   return (
     <div className="flex flex-col w-full md:mt-14 mt-0 items-center md:justify-start justify-center min-h-screen ">
-      <h1 className="text-white md:text-4xl text-2xl font-semibold mb-5">
+      <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-orange-500 to-amber-500 md:text-4xl text-2xl font-semibold mb-5">
         Create a New StartUp
       </h1>
 

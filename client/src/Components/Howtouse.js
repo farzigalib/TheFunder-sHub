@@ -3,7 +3,7 @@ import { FcDonate, FcShare, FcMoneyTransfer } from "react-icons/fc";
 
 const HowToUse = () => {
   return (
-    <div className="flex flex-col pt-5 md:mx-16 text-white text-left mx-3 white-glassmorphism">
+    <div id="howtouse" className="flex flex-col pt-5 md:mx-16 text-white text-left mx-3 white-glassmorphism">
       <h1 className="mb-5 mt-2 md:text-3xl text-lg text-white text-center">
         How <strong className="text-orange-500">The Funder's Hub</strong> Works
       </h1>
