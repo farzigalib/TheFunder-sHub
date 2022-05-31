@@ -16,18 +16,21 @@ const ViewStartUpPage = () => {
   return (
     <div className="text-white md:mx-20 mx-5 my-28 flex md:flex-row flex-col justify-center gap-x-24 gap-y-12">
       <div className="flex flex-col flex-1 gap-y-12">
-        <h1 className="md:text-6xl text-4xl text-transparent bg-clip-text bg-gradient-to-br from-orange-500 to-amber-500">Start Up Name</h1>
+        <h1 className="md:text-6xl text-4xl text-transparent bg-clip-text bg-gradient-to-br from-orange-500 to-amber-500">
+          91SquareFeet
+        </h1>
         <p className="md:justify-center justify-start items-center font-thin leading-8">
-          Hardhat is a development environment to compile, deploy, test, and
-          debug your Ethereum software. It helps developers manage and automate
-          the recurring tasks that are inherent to the process of building smart
-          contracts and dApps, as well as easily introducing more functionality
-          around this workflow. This means compiling, running and testing smart
-          contracts at the very core. Hardhat comes built-in with Hardhat
-          Network, a local Ethereum network designed for development. Its
-          functionality focuses around Solidity debugging, featuring stack
-          traces, console.log() and explicit error messages when transactions
-          fail.
+          Online shopping has seen frenzied demand in the pandemic years as
+          consumers prefer it for the sake of safety and convenience. But it is
+          premature to write off brick-and-mortar retail in favour of ecommerce.
+          Retail is now undergoing a tremendous transformation and entering the
+          hybrid/omnichannel stage where offline will remain a key growth
+          driver. Hence, setting up traditional retail stores in sync with the
+          new-age mixed commerce has become the need of the hour. Launched in
+          2018, Gurugram-based 91SquareFeet helps retail brands to build and
+          maintain their physical stores in India without big teams. It
+          currently hosts 20+ clients such as Van Heusen, Philips, CEAT,
+          Pepperfry, Chai Point and more.
         </p>
         <div className="py-5 md:pl-10 pl-4 flex flex-col justify-start blue-glassmorphism">
           <p className="font-thin md:text-base text-sm mb-2">
@@ -42,10 +45,10 @@ const ViewStartUpPage = () => {
         <div className="py-5 md:pl-10 pl-4 flex flex-col justify-start blue-glassmorphism gap-y-2">
           <p className="font-thin text-base">Startup Balance</p>
           <p className="text-2xl font-thin">
-            <span className="font-normal text-orange-500">13.85 Ether </span>
+            <span className="font-normal text-orange-500">5.85 Ether </span>
             ($44663.62)
           </p>
-          <p className="text-base">target of 50 Ether ($154464.86)</p>
+          <p className="text-base">target of 15 Ether ($154464.86)</p>
         </div>
         <div className="py-5 md:pl-10 pl-4 flex flex-col justify-start blue-glassmorphism">
           <h1 className="font-normal text-2xl text-orange-500 mb-6">
@@ -60,15 +63,22 @@ const ViewStartUpPage = () => {
             type="number"
             handleChange={() => {}}
           />
+          <button
+            type="button"
+            // onClick={handleSubmit}
+            className="text-black font-semibold w-11/12 mt-2 border-[1px] p-2 border-[#3d4f7c] rounded cursor-pointer bg-gradient-to-r from-green-500 to-green-300 transition duration-[2s] ease-in-out hover:bg-rose-600"
+          >
+            Contribute Here...
+          </button>
         </div>
         <div className="py-5 md:pl-10 pl-4 flex flex-col justify-start blue-glassmorphism">
-          <Link to="/createrequest">
+          <Link to="/withdrawalrequest">
             <button
               type="button"
               // onClick={handleSubmit}
               className="text-black font-semibold w-11/12 mt-2 border-[1px] p-2 border-[#3d4f7c] rounded cursor-pointer bg-gradient-to-r from-orange-500 to-amber-500 transition duration-[2s] ease-in-out hover:bg-rose-600"
             >
-              Create Withdrawal Request
+              View Withdrawal Request
             </button>
           </Link>
           <p className="w-11/12 mt-4">

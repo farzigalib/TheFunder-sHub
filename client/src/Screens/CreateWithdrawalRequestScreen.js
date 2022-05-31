@@ -57,9 +57,9 @@ const CreateWithdrawalRequestPage = () => {
       </div>
       <div className="mt-4 w-72 text-green-500 transition duration-1000 ease-in-out hover:text-red-600">
         <p className="italic text-xl">
-          <Link to="/viewstartup" className="ml-5 flex">
+          <Link to="/withdrawalrequest" className="ml-5 flex">
             <BiArrowBack fontSize={30} className="mr-2" />
-            Back to View StartUp
+            Back to Request List
           </Link>
         </p>
       </div>

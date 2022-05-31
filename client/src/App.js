@@ -6,6 +6,7 @@ import CreateStartUpPage from "./Screens/CreateStartUpScreen";
 import CreateWithdrawalRequestPage from "./Screens/CreateWithdrawalRequestScreen";
 import HomePage from "./Screens/HomeScreen";
 import ViewStartUpPage from "./Screens/ViewStartUpScreen";
+import WithdrawalRequestPage from "./Screens/WithdrawalRequestScreen";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
             path="/createrequest"
             element={<CreateWithdrawalRequestPage />}
           />
+          <Route path="/withdrawalrequest" element={<WithdrawalRequestPage />} />
         </Routes>
         <Footer />
       </Router>
